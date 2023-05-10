@@ -1,0 +1,29 @@
+{
+  "name": "es_training",
+  "version": "0.0.1",
+  "description": "training elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddbdzung/ES_Training.git"
+  },
+  "author": "dzung dang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddbdzung/ES_Training/issues"
+  },
+  "homepage": "https://github.com/ddbdzung/ES_Training#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.7.0",
+    "@types/node": "^20.1.1",
+    "axios": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "es6": "npm:@elastic/elasticsearch@^6.8.8",
+    "luxon": "^3.3.0"
+  }
+}
